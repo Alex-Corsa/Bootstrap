@@ -368,11 +368,19 @@ button {
   flex-direction: column;
   align-items: center;
 }
+.footer__button--btn {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 50px;
+  background-color: white;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  border: none;
+}
 .footer__line--flex {
   display: flex;
   justify-content: center;
   gap: 25px;
-  align-items: baseline;
+  align-items: center;
 }
 .footer__icons--flex {
   display: flex;
@@ -380,10 +388,31 @@ button {
   gap: 25px;
 }
 .footer__icon {
+  position: relative;
   width: 52px;
   height: 52px;
   border-radius: 50%;
   background-color: #d3d3d3;
+}
+.footer__img--1 {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.footer__img--2 {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+.footer__img--3 {
+  position: absolute;
+  top: 30%;
+  left: 33%;
+}
+.footer__img--4 {
+  position: absolute;
+  top: 35%;
+  left: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */

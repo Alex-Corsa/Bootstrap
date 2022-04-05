@@ -369,11 +369,19 @@ button {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+    &__button--btn {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 50px;
+        background-color: white;
+        box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+        border: none;
+    }
     &__line--flex {
         display: flex;
         justify-content: center;
         gap: 25px;
-        align-items: baseline;
+        align-items: center;
     }
         &__icons--flex {
             display: flex;
@@ -381,9 +389,30 @@ button {
             gap: 25px;
         }
             &__icon {
+                position: relative;
                 width: 52px;
                 height: 52px;
                 border-radius: 50%;
                 background-color: #d3d3d3;
             }
+                &__img--1 {
+                    position: absolute;
+                    top: 30%;
+                    left: 40%;
+                }
+                &__img--2 {
+                    position: absolute;
+                    top: 35%;
+                    left: 35%;
+                }
+                &__img--3 {
+                    position: absolute;
+                    top: 30%;
+                    left: 33%;
+                }
+                &__img--4 {
+                    position: absolute;
+                    top: 35%;
+                    left: 30%;
+                }
 }
