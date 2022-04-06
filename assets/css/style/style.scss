@@ -349,8 +349,6 @@ button {
         }
 }
 
-
-// В работе
 .fifth-screen {
     padding: 142px 0 130px;
     background-color: #f6f6f6;
@@ -366,6 +364,9 @@ button {
             height: 445px;
             filter: drop-shadow(0 0 1px rgba(20,20,21,0.6));
             background-color: #ff5c36;
+        }
+        &__inner--original:hover {
+            background-color: #fff3f0;            
         }
             &__item--text {
                 margin: 0 auto;
@@ -385,7 +386,7 @@ button {
                 color: #000000;
                 font-weight: 600;
                 font-family: "Open Sans";
-                text-align: center
+                text-align: center;
             }
             &__p-original--text {
                 font-size: 16px;
@@ -428,11 +429,6 @@ button {
 }
 
 .footer {
-    background-color: #f7f7f7;
-    padding: 50px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
     &__button--btn {
         margin: 0 auto;
         display: block;
