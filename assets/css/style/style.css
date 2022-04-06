@@ -351,6 +351,47 @@ button {
   padding: 142px 0 130px;
   background-color: #f6f6f6;
 }
+.fifth-screen__box--text {
+  margin-bottom: 125px;
+}
+.fifth-screen__wrapper--grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.fifth-screen__inner--original {
+  width: 360px;
+  height: 445px;
+  filter: drop-shadow(0 0 1px rgba(20, 20, 21, 0.6));
+  background-color: #ff5c36;
+}
+.fifth-screen__item--text {
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 85%;
+  width: 262px;
+  height: 95px;
+  border-radius: 2px;
+  filter: drop-shadow(1.042px 5.909px 8px rgba(20, 20, 21, 0.08));
+  background-color: #ffffff;
+}
+.fifth-screen__h3-original--text {
+  font-size: 30px;
+  line-height: 46px;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-align: center;
+}
+.fifth-screen__p-original--text {
+  font-size: 16px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 300;
+  font-family: "Open Sans";
+  text-align: center;
+}
 
 .sixth-screen {
   padding-top: 100px;
